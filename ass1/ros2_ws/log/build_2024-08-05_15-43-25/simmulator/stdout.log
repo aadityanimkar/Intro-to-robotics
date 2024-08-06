@@ -1,0 +1,33 @@
+running develop
+running egg_info
+writing simmulator.egg-info/PKG-INFO
+writing dependency_links to simmulator.egg-info/dependency_links.txt
+writing entry points to simmulator.egg-info/entry_points.txt
+writing requirements to simmulator.egg-info/requires.txt
+writing top-level names to simmulator.egg-info/top_level.txt
+reading manifest file 'simmulator.egg-info/SOURCES.txt'
+writing manifest file 'simmulator.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/lib/python3.10/site-packages/simmulator.egg-link (link to .)
+
+Installed /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator
+running symlink_data
+creating /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/meshes/iiwa7
+creating /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/meshes/iiwa7/collision
+symbolically linking /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/meshes/iiwa7/collision/link_2.stl -> /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/meshes/iiwa7/collision
+symbolically linking /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/meshes/iiwa7/collision/link_0.stl -> /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/meshes/iiwa7/collision
+symbolically linking /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/meshes/iiwa7/collision/link_5.stl -> /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/meshes/iiwa7/collision
+symbolically linking /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/meshes/iiwa7/collision/link_3.stl -> /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/meshes/iiwa7/collision
+symbolically linking /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/meshes/iiwa7/collision/link_6.stl -> /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/meshes/iiwa7/collision
+symbolically linking /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/meshes/iiwa7/collision/link_1.stl -> /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/meshes/iiwa7/collision
+symbolically linking /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/meshes/iiwa7/collision/link_7.stl -> /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/meshes/iiwa7/collision
+symbolically linking /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/meshes/iiwa7/collision/link_4.stl -> /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/meshes/iiwa7/collision
+creating /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/meshes/iiwa7/visual
+symbolically linking /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/meshes/iiwa7/visual/link_2.stl -> /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/meshes/iiwa7/visual
+symbolically linking /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/meshes/iiwa7/visual/link_0.stl -> /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/meshes/iiwa7/visual
+symbolically linking /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/meshes/iiwa7/visual/link_5.stl -> /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/meshes/iiwa7/visual
+symbolically linking /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/meshes/iiwa7/visual/link_3.stl -> /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/meshes/iiwa7/visual
+symbolically linking /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/meshes/iiwa7/visual/link_6.stl -> /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/meshes/iiwa7/visual
+symbolically linking /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/meshes/iiwa7/visual/link_1.stl -> /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/meshes/iiwa7/visual
+symbolically linking /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/meshes/iiwa7/visual/link_7.stl -> /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/meshes/iiwa7/visual
+symbolically linking /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/meshes/iiwa7/visual/link_4.stl -> /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/meshes/iiwa7/visual

@@ -1,0 +1,9 @@
+source;share/simmulator/hook/pythonpath.ps1
+source;share/simmulator/hook/pythonpath.dsv
+source;share/simmulator/hook/pythonpath.sh
+source;share/simmulator/hook/ament_prefix_path.ps1
+source;share/simmulator/hook/ament_prefix_path.dsv
+source;share/simmulator/hook/ament_prefix_path.sh
+source;../../build/simmulator/share/simmulator/hook/pythonpath_develop.ps1
+source;../../build/simmulator/share/simmulator/hook/pythonpath_develop.dsv
+source;../../build/simmulator/share/simmulator/hook/pythonpath_develop.sh

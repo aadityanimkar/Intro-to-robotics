@@ -1,0 +1,43 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+creating simmulator.egg-info
+writing simmulator.egg-info/PKG-INFO
+writing dependency_links to simmulator.egg-info/dependency_links.txt
+writing entry points to simmulator.egg-info/entry_points.txt
+writing requirements to simmulator.egg-info/requires.txt
+writing top-level names to simmulator.egg-info/top_level.txt
+writing manifest file 'simmulator.egg-info/SOURCES.txt'
+reading manifest file 'simmulator.egg-info/SOURCES.txt'
+writing manifest file 'simmulator.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/lib/python3.10/site-packages/simmulator.egg-link (link to .)
+
+Installed /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator
+running symlink_data
+creating /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/ament_index
+creating /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/ament_index/resource_index
+creating /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/ament_index/resource_index/packages
+symbolically linking /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/resource/simmulator -> /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/ament_index/resource_index/packages
+symbolically linking /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/package.xml -> /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator
+creating /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/description
+symbolically linking /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/description/iiwa14.xacro -> /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/description
+symbolically linking /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/description/materials.xacro -> /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/description
+symbolically linking /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/description/iiwa.transmission.xacro -> /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/description
+symbolically linking /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/description/iiwa7.xacro -> /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/description
+symbolically linking /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/description/iiwa14.urdf.xacro -> /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/description
+symbolically linking /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/description/utilities.xacro -> /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/description
+symbolically linking /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/description/iiwa7.urdf.xacro -> /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/description
+symbolically linking /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/description/iiwa.gazebo.xacro -> /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/description
+creating /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/meshes
+symbolically linking /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/meshes/iiwa7/collision/link_2.stl -> /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/meshes
+symbolically linking /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/meshes/iiwa7/collision/link_0.stl -> /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/meshes
+symbolically linking /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/meshes/iiwa7/collision/link_5.stl -> /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/meshes
+symbolically linking /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/meshes/iiwa7/collision/link_3.stl -> /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/meshes
+symbolically linking /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/meshes/iiwa7/collision/link_6.stl -> /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/meshes
+symbolically linking /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/meshes/iiwa7/collision/link_1.stl -> /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/meshes
+symbolically linking /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/meshes/iiwa7/collision/link_7.stl -> /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/meshes
+symbolically linking /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/meshes/iiwa7/collision/link_4.stl -> /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/meshes
+symbolically linking /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/meshes/iiwa7/visual/link_5.stl -> /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/meshes
+error: [Errno 17] File exists: '/home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/meshes/iiwa7/visual/link_5.stl' -> '/home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/meshes/link_5.stl'
