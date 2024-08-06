@@ -18,5 +18,3 @@ def inv_kinematics_2R(x,y):
     ans.append((q1_1,q2_1))
     ans.append((q1_2,q2_2))
     return ans
-
-print(inv_kinematics_2R(3,5))
