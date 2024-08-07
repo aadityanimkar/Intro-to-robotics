@@ -37,10 +37,18 @@ def generate_launch_description():
         executable='joint_state_publisher_gui',
         output='screen'
     )
-
+    rviz_config_path = "/home/aaditya/Intro-to-robotics/ass1/ros2_ws/src/simmulator/Config/rviz_simm.rviz"
+    rviz_launcher = Node(
+        package='rviz2',
+        executable='rviz2',
+        name='rviz2',
+        output='screen',
+        arguments=['-d', rviz_config_path]
+        )
 
     return LaunchDescription([
         declare_use_sim_time,
         node_robot_state_publisher,
         node_joint_state_publisher,
+        rviz_launcher
     ])
