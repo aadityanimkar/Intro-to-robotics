@@ -19,7 +19,7 @@ def generate_launch_description():
 
     # Process the URDF file with xacro
     pkg_path = get_package_share_directory('simmulator')
-    xacro_file = os.path.join(pkg_path, 'description', 'iiwa7.xacro')
+    xacro_file = os.path.join(pkg_path, 'description', 'iiwa7.urdf.xacro')
     doc = xacro.process_file(xacro_file)
     robot_description = {'robot_description': doc.toxml()}
 

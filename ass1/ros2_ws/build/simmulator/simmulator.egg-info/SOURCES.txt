@@ -3,8 +3,6 @@ setup.cfg
 setup.py
 description/iiwa.gazebo.xacro
 description/iiwa.transmission.xacro
-description/iiwa14.urdf.xacro
-description/iiwa14.xacro
 description/iiwa7.urdf.xacro
 description/iiwa7.xacro
 description/materials.xacro

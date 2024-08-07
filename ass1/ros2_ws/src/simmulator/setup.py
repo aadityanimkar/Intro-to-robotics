@@ -12,6 +12,9 @@ setup(
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
         (os.path.join('share', package_name, 'description'), glob('description/*.xacro')),
+        (os.path.join('share', package_name, 'description'), glob('description/*.urdf.xacro')),
+        (os.path.join('share', package_name, 'description'), glob('description/*.gazebo.xacro')),
+        (os.path.join('share', package_name, 'description'), glob('description/*.transmission.xacro')),
         (os.path.join('share', package_name, 'meshes/iiwa7/collision'), glob('meshes/iiwa7/collision/*.stl')),
         (os.path.join('share', package_name, 'meshes/iiwa7/visual'), glob('meshes/iiwa7/visual/*.stl')),
         (os.path.join('share', package_name, 'launch'), glob('launch/*.launch.py'))
