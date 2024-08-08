@@ -56,7 +56,7 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://simmulator/meshes/iiwa7/visual/link_0.stl"/>
+          <mesh filename="$(find simmulator)/meshes/iiwa7/visual/link_0.stl"/>
         </geometry>
         <material name="Grey"/>
       </visual>
@@ -64,7 +64,7 @@
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://simmulator/meshes/iiwa7/collision/link_0.stl"/>
+          <mesh filename="$(find simmulator)/meshes/iiwa7/collision/link_0.stl"/>
         </geometry>
         <material name="Grey"/>
       </collision>
@@ -103,14 +103,14 @@
       <visual>
         <origin xyz="0 0 0.0075" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://simmulator/meshes/iiwa7/visual/link_1.stl"/>
+          <mesh filename="$(find simmulator)/meshes/iiwa7/visual/link_1.stl"/>
         </geometry>
         <material name="Orange"/>
       </visual>
       <collision>
         <origin xyz="0 0 0.0075" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://simmulator/meshes/iiwa7/collision/link_1.stl"/>
+          <mesh filename="$(find simmulator)/meshes/iiwa7/collision/link_1.stl"/>
         </geometry>
         <material name="Orange"/>
       </collision>
@@ -140,7 +140,7 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://simmulator/meshes/iiwa7/visual/link_2.stl"/>
+          <mesh filename="$(find simmulator)/meshes/iiwa7/visual/link_2.stl"/>
         </geometry>
         <material name="Orange"/>
       </visual>
@@ -148,7 +148,7 @@
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://simmulator/meshes/iiwa7/collision/link_2.stl"/>
+          <mesh filename="$(find simmulator)/meshes/iiwa7/collision/link_2.stl"/>
         </geometry>
         <material name="Orange"/>
       </collision>

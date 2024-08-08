@@ -7,6 +7,7 @@ description/iiwa7.urdf.xacro
 description/iiwa7.xacro
 description/materials.xacro
 description/utilities.xacro
+launch/gazebo.launch.py
 launch/simm.launch.py
 meshes/iiwa7/collision/link_0.stl
 meshes/iiwa7/collision/link_1.stl

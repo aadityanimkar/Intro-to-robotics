@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing simmulator.egg-info/PKG-INFO
+writing dependency_links to simmulator.egg-info/dependency_links.txt
+writing entry points to simmulator.egg-info/entry_points.txt
+writing requirements to simmulator.egg-info/requires.txt
+writing top-level names to simmulator.egg-info/top_level.txt
+reading manifest file 'simmulator.egg-info/SOURCES.txt'
+writing manifest file 'simmulator.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/lib/python3.10/site-packages/simmulator.egg-link (link to .)
+
+Installed /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator
+running symlink_data
+symbolically linking /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/launch/gazebo.launch.py -> /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/launch

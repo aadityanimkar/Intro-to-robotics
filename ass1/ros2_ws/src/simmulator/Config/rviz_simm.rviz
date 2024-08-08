@@ -93,36 +93,10 @@ Visualization Manager:
       Update Interval: 0
       Value: true
       Visual Enabled: true
-    - Class: rviz_default_plugins/TF
-      Enabled: true
-      Frame Timeout: 15
-      Frames:
-        All Enabled: true
-        iiwa_link_0:
-          Value: true
-        iiwa_link_1:
-          Value: true
-        iiwa_link_2:
-          Value: true
-        world:
-          Value: true
-      Marker Scale: 1
-      Name: TF
-      Show Arrows: true
-      Show Axes: true
-      Show Names: false
-      Tree:
-        world:
-          iiwa_link_0:
-            iiwa_link_1:
-              iiwa_link_2:
-                {}
-      Update Interval: 0
-      Value: true
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
-    Fixed Frame: iiwa_link_0
+    Fixed Frame: world
     Frame Rate: 30
   Name: root
   Tools:
@@ -165,25 +139,25 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz_default_plugins/Orbit
-      Distance: 0.0010000000474974513
+      Distance: 5.885439872741699
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: -0.032777462154626846
-        Y: -0.19182561337947845
-        Z: 0.17172843217849731
+        X: 0
+        Y: 0
+        Z: 0
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.9853980541229248
+      Pitch: 0.3853979706764221
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 1.0453968048095703
+      Yaw: 0.5603979825973511
     Saved: ~
 Window Geometry:
   Displays:
