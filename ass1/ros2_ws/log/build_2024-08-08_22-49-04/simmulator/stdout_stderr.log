@@ -1,4 +1,6 @@
 running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
 running egg_info
 creating simmulator.egg-info
 writing simmulator.egg-info/PKG-INFO
@@ -48,3 +50,4 @@ symbolically linking /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulat
 symbolically linking /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/meshes/iiwa7/visual/link_4.stl -> /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/meshes/iiwa7/visual
 creating /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/launch
 symbolically linking /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/launch/simm.launch.py -> /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/launch
+symbolically linking /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/launch/gazebo.launch.py -> /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/launch

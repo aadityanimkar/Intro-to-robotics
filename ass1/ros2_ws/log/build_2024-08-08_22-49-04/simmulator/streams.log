@@ -1,0 +1,55 @@
+[0.427s] Invoking command in '/home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator': PYTHONPATH=/home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/build --no-deps symlink_data
+[0.649s] running develop
+[0.650s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.650s]   warnings.warn(
+[0.753s] running egg_info
+[0.753s] creating simmulator.egg-info
+[0.753s] writing simmulator.egg-info/PKG-INFO
+[0.754s] writing dependency_links to simmulator.egg-info/dependency_links.txt
+[0.754s] writing entry points to simmulator.egg-info/entry_points.txt
+[0.754s] writing requirements to simmulator.egg-info/requires.txt
+[0.754s] writing top-level names to simmulator.egg-info/top_level.txt
+[0.754s] writing manifest file 'simmulator.egg-info/SOURCES.txt'
+[0.757s] reading manifest file 'simmulator.egg-info/SOURCES.txt'
+[0.758s] writing manifest file 'simmulator.egg-info/SOURCES.txt'
+[0.760s] running build_ext
+[0.760s] Creating /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/lib/python3.10/site-packages/simmulator.egg-link (link to .)
+[0.761s] 
+[0.761s] Installed /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator
+[0.761s] running symlink_data
+[0.761s] creating /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/ament_index
+[0.761s] creating /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/ament_index/resource_index
+[0.761s] creating /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/ament_index/resource_index/packages
+[0.762s] symbolically linking /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/resource/simmulator -> /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/ament_index/resource_index/packages
+[0.762s] symbolically linking /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/package.xml -> /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator
+[0.762s] creating /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/description
+[0.763s] symbolically linking /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/description/materials.xacro -> /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/description
+[0.763s] symbolically linking /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/description/iiwa.transmission.xacro -> /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/description
+[0.763s] symbolically linking /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/description/iiwa7.xacro -> /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/description
+[0.763s] symbolically linking /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/description/utilities.xacro -> /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/description
+[0.763s] symbolically linking /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/description/iiwa7.urdf.xacro -> /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/description
+[0.763s] symbolically linking /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/description/iiwa.gazebo.xacro -> /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/description
+[0.764s] creating /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/meshes
+[0.764s] creating /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/meshes/iiwa7
+[0.764s] creating /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/meshes/iiwa7/collision
+[0.764s] symbolically linking /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/meshes/iiwa7/collision/link_2.stl -> /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/meshes/iiwa7/collision
+[0.764s] symbolically linking /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/meshes/iiwa7/collision/link_0.stl -> /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/meshes/iiwa7/collision
+[0.764s] symbolically linking /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/meshes/iiwa7/collision/link_5.stl -> /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/meshes/iiwa7/collision
+[0.765s] symbolically linking /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/meshes/iiwa7/collision/link_3.stl -> /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/meshes/iiwa7/collision
+[0.765s] symbolically linking /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/meshes/iiwa7/collision/link_6.stl -> /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/meshes/iiwa7/collision
+[0.765s] symbolically linking /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/meshes/iiwa7/collision/link_1.stl -> /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/meshes/iiwa7/collision
+[0.765s] symbolically linking /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/meshes/iiwa7/collision/link_7.stl -> /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/meshes/iiwa7/collision
+[0.766s] symbolically linking /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/meshes/iiwa7/collision/link_4.stl -> /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/meshes/iiwa7/collision
+[0.766s] creating /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/meshes/iiwa7/visual
+[0.766s] symbolically linking /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/meshes/iiwa7/visual/link_2.stl -> /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/meshes/iiwa7/visual
+[0.766s] symbolically linking /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/meshes/iiwa7/visual/link_0.stl -> /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/meshes/iiwa7/visual
+[0.766s] symbolically linking /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/meshes/iiwa7/visual/link_5.stl -> /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/meshes/iiwa7/visual
+[0.766s] symbolically linking /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/meshes/iiwa7/visual/link_3.stl -> /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/meshes/iiwa7/visual
+[0.766s] symbolically linking /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/meshes/iiwa7/visual/link_6.stl -> /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/meshes/iiwa7/visual
+[0.766s] symbolically linking /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/meshes/iiwa7/visual/link_1.stl -> /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/meshes/iiwa7/visual
+[0.767s] symbolically linking /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/meshes/iiwa7/visual/link_7.stl -> /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/meshes/iiwa7/visual
+[0.767s] symbolically linking /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/meshes/iiwa7/visual/link_4.stl -> /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/meshes/iiwa7/visual
+[0.767s] creating /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/launch
+[0.768s] symbolically linking /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/launch/simm.launch.py -> /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/launch
+[0.768s] symbolically linking /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/launch/gazebo.launch.py -> /home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/share/simmulator/launch
+[0.802s] Invoked command in '/home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator' returned '0': PYTHONPATH=/home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aaditya/Intro-to-robotics/ass1/ros2_ws/install/simmulator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/aaditya/Intro-to-robotics/ass1/ros2_ws/build/simmulator/build --no-deps symlink_data
