@@ -1,0 +1,39 @@
+[0.418s] Invoking command in '/home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/build/owl': PYTHONPATH=/home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/build/owl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/install/owl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/build/owl/build --no-deps symlink_data
+[0.586s] running develop
+[0.586s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.586s]   warnings.warn(
+[0.681s] running egg_info
+[0.681s] creating owl.egg-info
+[0.681s] writing owl.egg-info/PKG-INFO
+[0.681s] writing dependency_links to owl.egg-info/dependency_links.txt
+[0.681s] writing entry points to owl.egg-info/entry_points.txt
+[0.681s] writing requirements to owl.egg-info/requires.txt
+[0.682s] writing top-level names to owl.egg-info/top_level.txt
+[0.682s] writing manifest file 'owl.egg-info/SOURCES.txt'
+[0.683s] reading manifest file 'owl.egg-info/SOURCES.txt'
+[0.683s] writing manifest file 'owl.egg-info/SOURCES.txt'
+[0.685s] running build_ext
+[0.685s] Creating /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/install/owl/lib/python3.10/site-packages/owl.egg-link (link to .)
+[0.685s] 
+[0.685s] Installed /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/build/owl
+[0.686s] running symlink_data
+[0.686s] creating /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/install/owl/share/ament_index
+[0.686s] creating /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/install/owl/share/ament_index/resource_index
+[0.686s] creating /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/install/owl/share/ament_index/resource_index/packages
+[0.686s] symbolically linking /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/build/owl/resource/owl -> /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/install/owl/share/ament_index/resource_index/packages
+[0.686s] symbolically linking /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/build/owl/package.xml -> /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/install/owl/share/owl
+[0.687s] creating /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/install/owl/share/owl/urdf
+[0.687s] symbolically linking /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/build/owl/urdf/robot.xacro -> /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/install/owl/share/owl/urdf
+[0.687s] symbolically linking /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/build/owl/urdf/robot.urdf -> /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/install/owl/share/owl/urdf
+[0.687s] symbolically linking /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/build/owl/urdf/robot_active.urdf -> /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/install/owl/share/owl/urdf
+[0.687s] creating /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/install/owl/share/owl/meshes
+[0.687s] symbolically linking /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/build/owl/meshes/end_effector_link.STL -> /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/install/owl/share/owl/meshes
+[0.687s] symbolically linking /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/build/owl/meshes/shoulder_link.STL -> /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/install/owl/share/owl/meshes
+[0.687s] symbolically linking /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/build/owl/meshes/link1.STL -> /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/install/owl/share/owl/meshes
+[0.687s] symbolically linking /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/build/owl/meshes/w2w3_link.STL -> /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/install/owl/share/owl/meshes
+[0.687s] symbolically linking /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/build/owl/meshes/base_link.STL -> /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/install/owl/share/owl/meshes
+[0.688s] symbolically linking /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/build/owl/meshes/elbow_link.STL -> /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/install/owl/share/owl/meshes
+[0.688s] symbolically linking /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/build/owl/meshes/link2.STL -> /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/install/owl/share/owl/meshes
+[0.688s] creating /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/install/owl/share/owl/launch
+[0.688s] symbolically linking /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/build/owl/launch/owl.launch.py -> /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/install/owl/share/owl/launch
+[0.716s] Invoked command in '/home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/build/owl' returned '0': PYTHONPATH=/home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/build/owl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/install/owl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/build/owl/build --no-deps symlink_data

@@ -2,6 +2,13 @@ package.xml
 setup.cfg
 setup.py
 launch/owl.launch.py
+meshes/base_link.STL
+meshes/elbow_link.STL
+meshes/end_effector_link.STL
+meshes/link1.STL
+meshes/link2.STL
+meshes/shoulder_link.STL
+meshes/w2w3_link.STL
 owl/__init__.py
 owl.egg-info/PKG-INFO
 owl.egg-info/SOURCES.txt

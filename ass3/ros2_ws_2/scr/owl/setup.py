@@ -13,8 +13,10 @@ setup(
         ('share/' + package_name, ['package.xml']),
         (os.path.join('share', package_name, 'urdf'), glob('urdf/*.xacro')),
         (os.path.join('share', package_name, 'urdf'), glob('urdf/*.urdf')),
-        (os.path.join('share', package_name, 'meshes'), glob('meshes*.stl')),
-        (os.path.join('share', package_name, 'launch'), glob('launch/*.launch.py'))
+        (os.path.join('share', package_name, 'meshes'),
+         glob('meshes/*.STL')),
+        (os.path.join('share', package_name, 'launch'),
+         glob('launch/*.launch.py')),
 
     ],
     install_requires=['setuptools'],

@@ -24,5 +24,12 @@ symbolically linking /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/build/owl/ur
 symbolically linking /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/build/owl/urdf/robot.urdf -> /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/install/owl/share/owl/urdf
 symbolically linking /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/build/owl/urdf/robot_active.urdf -> /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/install/owl/share/owl/urdf
 creating /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/install/owl/share/owl/meshes
+symbolically linking /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/build/owl/meshes/end_effector_link.STL -> /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/install/owl/share/owl/meshes
+symbolically linking /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/build/owl/meshes/shoulder_link.STL -> /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/install/owl/share/owl/meshes
+symbolically linking /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/build/owl/meshes/link1.STL -> /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/install/owl/share/owl/meshes
+symbolically linking /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/build/owl/meshes/w2w3_link.STL -> /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/install/owl/share/owl/meshes
+symbolically linking /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/build/owl/meshes/base_link.STL -> /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/install/owl/share/owl/meshes
+symbolically linking /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/build/owl/meshes/elbow_link.STL -> /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/install/owl/share/owl/meshes
+symbolically linking /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/build/owl/meshes/link2.STL -> /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/install/owl/share/owl/meshes
 creating /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/install/owl/share/owl/launch
 symbolically linking /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/build/owl/launch/owl.launch.py -> /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/install/owl/share/owl/launch
