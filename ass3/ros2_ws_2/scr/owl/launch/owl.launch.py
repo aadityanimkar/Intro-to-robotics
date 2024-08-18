@@ -45,6 +45,13 @@ def generate_launch_description():
         output='screen',
         arguments=['-d', rviz_config_path]
         )
+    
+    node_EE_data = Node(
+        package='owl',
+        executable='EEposition',
+        name='EE_position',
+        output='log'
+    )
 
     return LaunchDescription([
         declare_use_sim_time,
