@@ -1,0 +1,9 @@
+source;share/owl/hook/pythonpath.ps1
+source;share/owl/hook/pythonpath.dsv
+source;share/owl/hook/pythonpath.sh
+source;share/owl/hook/ament_prefix_path.ps1
+source;share/owl/hook/ament_prefix_path.dsv
+source;share/owl/hook/ament_prefix_path.sh
+source;../../build/owl/share/owl/hook/pythonpath_develop.ps1
+source;../../build/owl/share/owl/hook/pythonpath_develop.dsv
+source;../../build/owl/share/owl/hook/pythonpath_develop.sh

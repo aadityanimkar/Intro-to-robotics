@@ -1,0 +1,28 @@
+running develop
+running egg_info
+creating owl.egg-info
+writing owl.egg-info/PKG-INFO
+writing dependency_links to owl.egg-info/dependency_links.txt
+writing entry points to owl.egg-info/entry_points.txt
+writing requirements to owl.egg-info/requires.txt
+writing top-level names to owl.egg-info/top_level.txt
+writing manifest file 'owl.egg-info/SOURCES.txt'
+reading manifest file 'owl.egg-info/SOURCES.txt'
+writing manifest file 'owl.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/install/owl/lib/python3.10/site-packages/owl.egg-link (link to .)
+
+Installed /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/build/owl
+running symlink_data
+creating /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/install/owl/share/ament_index
+creating /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/install/owl/share/ament_index/resource_index
+creating /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/install/owl/share/ament_index/resource_index/packages
+symbolically linking /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/build/owl/resource/owl -> /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/install/owl/share/ament_index/resource_index/packages
+symbolically linking /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/build/owl/package.xml -> /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/install/owl/share/owl
+creating /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/install/owl/share/owl/urdf
+symbolically linking /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/build/owl/urdf/robot.xacro -> /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/install/owl/share/owl/urdf
+symbolically linking /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/build/owl/urdf/robot.urdf -> /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/install/owl/share/owl/urdf
+symbolically linking /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/build/owl/urdf/robot_active.urdf -> /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/install/owl/share/owl/urdf
+creating /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/install/owl/share/owl/meshes
+creating /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/install/owl/share/owl/launch
+symbolically linking /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/build/owl/launch/owl.launch.py -> /home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/install/owl/share/owl/launch
