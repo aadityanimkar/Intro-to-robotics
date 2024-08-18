@@ -18,8 +18,8 @@ def generate_launch_description():
     use_sim_time = LaunchConfiguration('use_sim_time')
 
     # Process the URDF file with xacro
-    pkg_path = get_package_share_directory('simmulator')
-    xacro_file = os.path.join(pkg_path, 'description', 'iiwa7.urdf.xacro')
+    pkg_path = get_package_share_directory('owl')
+    xacro_file = os.path.join(pkg_path, 'urdf', 'robot.urdf')
     doc = xacro.process_file(xacro_file)
     robot_description = {'robot_description': doc.toxml()}
 
@@ -37,7 +37,7 @@ def generate_launch_description():
         executable='joint_state_publisher_gui',
         output='screen'
     )
-    rviz_config_path = "/home/aaditya/Intro-to-robotics/ass1/ros2_ws/src/simmulator/Config/rviz_simm.rviz"
+    rviz_config_path = "/home/aaditya/Intro-to-robotics/ass3/ros2_ws_2/scr/owl/config/urdf.rviz"
     rviz_launcher = Node(
         package='rviz2',
         executable='rviz2',
