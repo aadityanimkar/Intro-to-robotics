@@ -1,0 +1,21 @@
+running develop
+running egg_info
+creating r2workshop.egg-info
+writing r2workshop.egg-info/PKG-INFO
+writing dependency_links to r2workshop.egg-info/dependency_links.txt
+writing entry points to r2workshop.egg-info/entry_points.txt
+writing requirements to r2workshop.egg-info/requires.txt
+writing top-level names to r2workshop.egg-info/top_level.txt
+writing manifest file 'r2workshop.egg-info/SOURCES.txt'
+reading manifest file 'r2workshop.egg-info/SOURCES.txt'
+writing manifest file 'r2workshop.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/aaditya/Intro-to-robotics/publisher_assigmt/ros2_ws/install/r2workshop/lib/python3.10/site-packages/r2workshop.egg-link (link to .)
+
+Installed /home/aaditya/Intro-to-robotics/publisher_assigmt/ros2_ws/build/r2workshop
+running symlink_data
+creating /home/aaditya/Intro-to-robotics/publisher_assigmt/ros2_ws/install/r2workshop/share/ament_index
+creating /home/aaditya/Intro-to-robotics/publisher_assigmt/ros2_ws/install/r2workshop/share/ament_index/resource_index
+creating /home/aaditya/Intro-to-robotics/publisher_assigmt/ros2_ws/install/r2workshop/share/ament_index/resource_index/packages
+symbolically linking /home/aaditya/Intro-to-robotics/publisher_assigmt/ros2_ws/build/r2workshop/resource/r2workshop -> /home/aaditya/Intro-to-robotics/publisher_assigmt/ros2_ws/install/r2workshop/share/ament_index/resource_index/packages
+symbolically linking /home/aaditya/Intro-to-robotics/publisher_assigmt/ros2_ws/build/r2workshop/package.xml -> /home/aaditya/Intro-to-robotics/publisher_assigmt/ros2_ws/install/r2workshop/share/r2workshop

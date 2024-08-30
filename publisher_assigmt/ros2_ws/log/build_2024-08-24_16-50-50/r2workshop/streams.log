@@ -1,0 +1,19 @@
+[1.286s] Invoking command in '/home/aaditya/Intro-to-robotics/publisher_assigmt/ros2_ws/build/r2workshop': PYTHONPATH=/home/aaditya/Intro-to-robotics/publisher_assigmt/ros2_ws/build/r2workshop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aaditya/Intro-to-robotics/publisher_assigmt/ros2_ws/install/r2workshop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/aaditya/Intro-to-robotics/publisher_assigmt/ros2_ws/build/r2workshop/build --no-deps symlink_data
+[1.483s] running develop
+[1.484s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.484s]   warnings.warn(
+[1.599s] running egg_info
+[1.600s] writing r2workshop.egg-info/PKG-INFO
+[1.600s] writing dependency_links to r2workshop.egg-info/dependency_links.txt
+[1.601s] writing entry points to r2workshop.egg-info/entry_points.txt
+[1.602s] writing requirements to r2workshop.egg-info/requires.txt
+[1.602s] writing top-level names to r2workshop.egg-info/top_level.txt
+[1.604s] reading manifest file 'r2workshop.egg-info/SOURCES.txt'
+[1.605s] writing manifest file 'r2workshop.egg-info/SOURCES.txt'
+[1.606s] running build_ext
+[1.607s] Creating /home/aaditya/Intro-to-robotics/publisher_assigmt/ros2_ws/install/r2workshop/lib/python3.10/site-packages/r2workshop.egg-link (link to .)
+[1.607s] Installing node1=r2workshop.Node1:mainnode2 script to /home/aaditya/Intro-to-robotics/publisher_assigmt/ros2_ws/install/r2workshop/lib/r2workshop
+[1.608s] 
+[1.608s] Installed /home/aaditya/Intro-to-robotics/publisher_assigmt/ros2_ws/build/r2workshop
+[1.608s] running symlink_data
+[1.643s] Invoked command in '/home/aaditya/Intro-to-robotics/publisher_assigmt/ros2_ws/build/r2workshop' returned '0': PYTHONPATH=/home/aaditya/Intro-to-robotics/publisher_assigmt/ros2_ws/build/r2workshop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aaditya/Intro-to-robotics/publisher_assigmt/ros2_ws/install/r2workshop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/aaditya/Intro-to-robotics/publisher_assigmt/ros2_ws/build/r2workshop/build --no-deps symlink_data

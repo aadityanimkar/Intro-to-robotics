@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing r2workshop.egg-info/PKG-INFO
+writing dependency_links to r2workshop.egg-info/dependency_links.txt
+writing entry points to r2workshop.egg-info/entry_points.txt
+writing requirements to r2workshop.egg-info/requires.txt
+writing top-level names to r2workshop.egg-info/top_level.txt
+reading manifest file 'r2workshop.egg-info/SOURCES.txt'
+writing manifest file 'r2workshop.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/aaditya/Intro-to-robotics/publisher_assigmt/ros2_ws/install/r2workshop/lib/python3.10/site-packages/r2workshop.egg-link (link to .)
+Installing node1=r2workshop.Node1:mainnode2 script to /home/aaditya/Intro-to-robotics/publisher_assigmt/ros2_ws/install/r2workshop/lib/r2workshop
+
+Installed /home/aaditya/Intro-to-robotics/publisher_assigmt/ros2_ws/build/r2workshop
+running symlink_data
