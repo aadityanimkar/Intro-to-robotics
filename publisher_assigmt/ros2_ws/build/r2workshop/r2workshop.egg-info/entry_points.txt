@@ -1,4 +1,0 @@
-[console_scripts]
-node1 = r2workshop.node1:main
-node2 = r2workshop.node2:main
-
