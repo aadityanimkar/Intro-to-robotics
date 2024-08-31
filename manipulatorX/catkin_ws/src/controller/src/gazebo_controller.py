@@ -1,45 +1,85 @@
+#!/usr/bin/env python3
+
 import rospy
-from open_manipulator_msgs.msg import JointPosition, SetJointPosition
+from sensor_msgs.msg import JointState
+from std_msgs.msg import Float64
+from gazebo_msgs.srv import SetModelState
+from gazebo_msgs.msg import ModelState
 
-class OpenManipulatorController:
-    def __init__(self):
-        # Initialize the ROS node
-        rospy.init_node('openmanipulator_controller', anonymous=True)
-        
-        # Publisher to send joint commands
-        self.joint_pub = rospy.Publisher('/open_manipulator/goal_joint_space_path', SetJointPosition, queue_size=10)
-        
-        # Set the loop rate (10 Hz)
-        self.rate = rospy.Rate(10)
+def move_to_position(joint_positions):
+    """Publish joint positions to control the robot in Gazebo."""
+    joint_names = ['joint1', 'joint2', 'joint3', 'joint4', 'joint5', 'joint6']
+    
+    for joint_name, position in zip(joint_names, joint_positions):
+        pub = rospy.Publisher(f'/open_manipulator/{joint_name}_position_controller/command', Float64, queue_size=10)
+        rospy.sleep(0.1)  # Allow publisher to initialize
+        pub.publish(Float64(position))
 
-    def move_to_joint_position(self, joint_names, joint_angles, time_from_start):
-        # Create a SetJointPosition message
-        joint_goal = SetJointPosition()
-        joint_goal.joint_position.joint_name = joint_names
-        joint_goal.joint_position.position = joint_angles
-        joint_goal.path_time = time_from_start
-        
-        # Publish the joint goal
-        self.joint_pub.publish(joint_goal)
-        rospy.sleep(time_from_start + 0.5)  # Sleep to ensure the motion is completed
+def publish_joint_and_gripper_states(joint_positions, gripper_position):
+    """Publish joint states and gripper state."""
+    joint_state_pub = rospy.Publisher('/joint_states', JointState, queue_size=10)
+    gripper_command_pub = rospy.Publisher('/gripper/command', Float64, queue_size=10)
+
+    joint_state_msg = JointState()
+    joint_state_msg.header.stamp = rospy.Time.now()
+    joint_state_msg.name = ['joint1', 'joint2', 'joint3', 'joint4', 'joint5', 'joint6']
+    joint_state_msg.position = joint_positions
+    joint_state_msg.velocity = []  # You can add velocity data if needed
+    joint_state_msg.effort = []    # You can add effort data if needed
+
+    gripper_command_msg = Float64()
+    gripper_command_msg.data = gripper_position
+
+    joint_state_pub.publish(joint_state_msg)
+    gripper_command_pub.publish(gripper_command_msg)
+
+def move_and_publish():
+    rospy.init_node('move_and_publish_node', anonymous=True)
+
+    # Define home and target positions
+    home_position = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+    target_position = [1.0, 0.5, -0.5, 1.0, 0.0, 0.0]
+    gripper_position = 0.0  # Example gripper position
+
+    rate = rospy.Rate(10)  # 10 Hz
+
+    # Move to home position
+    rospy.loginfo("Moving to home position...")
+    move_to_position(home_position)
+    
+    # Wait for the robot to reach the home position
+    rospy.sleep(2)  # Adjust sleep time as needed
+
+    rospy.loginfo("Publishing home position...")
+    publish_joint_and_gripper_states(home_position, gripper_position)
+    
+    # Continuously publish home position
+    while not rospy.is_shutdown():
+        publish_joint_and_gripper_states(home_position, gripper_position)
+        rate.sleep()
+        break  # Remove break to keep publishing until stopped
+
+    # Move to target position
+    rospy.loginfo("Moving to target position...")
+    move_to_position(target_position)
+
+    # Wait for the robot to reach the target position
+    rospy.sleep(2)  # Adjust sleep time as needed
+
+    rospy.loginfo("Publishing target position...")
+    publish_joint_and_gripper_states(target_position, gripper_position)
+    
+    # Continuously publish target position
+    while not rospy.is_shutdown():
+        publish_joint_and_gripper_states(target_position, gripper_position)
+        rate.sleep()
+        break  # Remove break to keep publishing until stopped
+
+    rospy.loginfo("Movement complete.")
+    rospy.spin()
 
 if __name__ == '__main__':
     try:
-        # Initialize the controller
-        controller = OpenManipulatorController()
-        
-        # Define the joint names (these are typical for OpenManipulatorX)
-        joint_names = ['joint1', 'joint2', 'joint3', 'joint4']
-        
-        # Step 1: Move the robot to the default initial position
-        default_joint_angles = [0.0, -1.05, 0.35, 0.70]  # Default "home" position for OpenManipulatorX
-        time_to_default_position = 2.0  # Time to reach the default initial position
-        controller.move_to_joint_position(joint_names, default_joint_angles, time_to_default_position)
-        
-        # Step 2: Move the robot to the desired joint positions
-        target_joint_angles = [0.0, -0.5, 0.5, 0.0]  # Example target positions
-        time_to_target_position = 2.0  # Time to reach the target positions
-        controller.move_to_joint_position(joint_names, target_joint_angles, time_to_target_position)
-
+        move_and_publish()
     except rospy.ROSInterruptException:
         pass
